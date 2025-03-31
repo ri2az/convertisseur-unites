@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# 🔁 Convertisseur d'unités en React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Une application web construite avec **React.js** pour convertir plusieurs unités de mesure avec un **dark mode** intégré ✨  
+✅ Déployée sur [Vercel](https://vercel.com) et accessible en ligne.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Démo
 
-### `npm start`
+🔗 [Accéder à l'app en ligne](https://convertisseur-unites.vercel.app)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧰 Fonctionnalités
 
-### `npm test`
+- 🌗 **Mode sombre / clair**
+- 📋 Résumé dynamique (ex : `10 km = 6.21 miles`)
+- 📎 Bouton “Copier le résultat”
+- ⚙️ Animation fluide à l'affichage
+- 📱 Responsive (mobile-friendly)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🔢 Unités disponibles
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🌡️ Température : Celsius, Fahrenheit, Kelvin  
+- 📏 Distance : mm, cm, m, km, pouce, pied, mile  
+- 🕒 Temps : seconde, minute, heure, jour  
+- ⚖️ Poids : gramme, kilogramme, tonne, livre, once  
+- 🧪 Volume : litre, millilitre, m³, pied³, gallon US  
+- 🧯 Pression : bar, Pa, mmHg, cmH₂O, mmH₂O, atm  
+- 🌀 Angle : degré, radian, grade  
+- 🟫 Aire : m², km², hectare, pied²  
+- 📶 Débit (réseau) : bps, Kbps, Mbps, Gbps  
+- 🔋 Énergie : joule, calorie, kWh  
+- 💪 Force : newton, kg-force, livre-force  
+- ⛽ Consommation carburant : L/100km, mpg  
+- ⚡ Puissance : watt, kilowatt, cheval vapeur  
+- 🚗 Vitesse : m/s, km/h, mph, noeud  
+- 💾 Données : bit, octet, ko, Mo, Go
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Lancer en local
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+git clone https://github.com/ri2az/convertisseur-unites.git
+cd convertisseur-unites
+npm install
+npm start
